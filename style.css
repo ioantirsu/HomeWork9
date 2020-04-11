@@ -1,0 +1,165 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+  
+  body{
+    font-family: 'Poppins', sans-serif
+  }
+
+.flex-container {
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: space-between;
+   background-image: url("Rectangle.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+ 
+}
+.flex2{
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+ }
+
+  .box{
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 30px;
+}
+
+
+ 
+.flex-container .div1 {
+   padding-left: 20px;
+   }
+.flex-container .div2 {
+   width: 95%;
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+     padding-left: 20px;
+
+
+}
+.logo{
+  float: left;
+  width: 48px;
+  height: 72px;
+  margin-top: 80px;
+  margin-left: 15px;
+}
+.h1{ 
+  font-size: 40px;
+ line-height: 45px;
+ color: #ffffff;
+  }
+  .info
+  {
+    line-height: 45px;
+    color:#ffffff
+  }
+  .h2{
+    color: #001958;
+    font-weight: bold;
+    font-size:30px;
+    line-height: 45px;
+    text-align: center;
+    width: 98%;
+  }
+  p{
+    font-style: normal;
+    font-size:20px;
+    line-height: 30px;
+    font-weight: normal;
+     color: #ffffff;
+
+  }
+  .button{
+    width: 250px;
+    height: 57px;
+    left: 20px;
+    margin-top:50px;
+    border-radius: 100px;
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  
+
+
+  .button2 {
+    width: 250px;
+    position: absolute;
+    height: 57px;
+    left: 1102px;
+    top: 38px;
+    display: none;
+    border-radius: 100px;
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+
+ 
+  
+.small {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F4F4F;
+}
+.big { 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+  color: #828282;
+  margin: 0px;
+}
+
+@media (min-width: 768px){ 
+  .box {
+    width: 30%;
+  
+}
+.flex-container .div2 {
+  width: 300px;
+  font-size: 30px;
+  padding-left: 20px;
+  margin-top: 205px;
+}
+.logo {
+  width: 80px;
+height: 120px;
+margin-left: 40px;
+margin-top: 216px;
+}
+
+
+}
+      
+  
+  @media (min-width: 1024px) {
+    .box { 
+      width: 20%;
+      
+  }
+  .button2 {
+    display: block;
+  }
+}
